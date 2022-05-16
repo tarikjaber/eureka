@@ -4,7 +4,11 @@ html, body {
 
 body{
   /* background-color: #CAF0F8; */
+<<<<<<< HEAD
   background-image: url('Images/backgrouond.png');
+=======
+  
+>>>>>>> 869cbc20f9f3bf1c8d3f6aec73c80484fc8a3775
 }
 
 .container {
@@ -19,7 +23,11 @@ body{
 }
 
 .link {
+<<<<<<< HEAD
   margin-top: -20px;
+=======
+  margin-top: -15px;
+>>>>>>> 869cbc20f9f3bf1c8d3f6aec73c80484fc8a3775
   font-weight: 600;
 }
 
@@ -27,6 +35,7 @@ body{
   padding: 20px;
   max-width: 700px;
   margin: auto;
+<<<<<<< HEAD
   margin-top: 15px;
 }
 
@@ -66,6 +75,38 @@ a:hover {
 
 a:hover::before {
   width:100%;
+=======
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover {
+  color: black;
+  background-size: 0 3px, 100% 3px;
+>>>>>>> 869cbc20f9f3bf1c8d3f6aec73c80484fc8a3775
 }
 
 
@@ -73,6 +114,10 @@ a:hover::before {
 
 h2 {
   color: #03045E;
+<<<<<<< HEAD
+=======
+  margin-top: 20px;
+>>>>>>> 869cbc20f9f3bf1c8d3f6aec73c80484fc8a3775
 }
 
 
